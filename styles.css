@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    position: relative;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 150px; /* Reduza o tamanho da imagem */
+    height: 150px; /* Faça a imagem ficar em um formato menor */
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover; /* Garante que a imagem se encaixe corretamente no contêiner */
+}
+
+.profile-name {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link-button {
+    background-color: #0073b1;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.link-button:hover {
+    background-color: #2d6f91;
+}
+
+.link-button:nth-child(1) {
+    background-color: #444444;
+}
+
+.link-button:nth-child(1):hover {
+    background-color: #1c1c1c;
+}
+.link-button:nth-child(3) {
+    background-color: #1e90ff; /* Cor azul clara para diferenciar */
+}
+
+.link-button:nth-child(3):hover {
+    background-color: #1c7ccc; /* Cor mais escura ao passar o mouse */
+}
+.link-button:nth-child(4) {
+    background-color: #f10780; /* Cor azul clara para diferenciar */
+}
+
+.link-button:nth-child(5) {
+    background-color: #1ccc30; /* Cor mais escura ao passar o mouse */
+}
+.link-button:nth-child(4):hover {
+    background-color: #a8085b; /* Cor azul clara para diferenciar */
+}
+.link-button:nth-child(5):hover {
+    background-color: #18a808; /* Cor azul clara para diferenciar */
+}
+.link-button:nth-child(6) {
+    background-color: #000000; /* Cor azul clara para diferenciar */
+}
+.link-button:nth-child(6):hover {
+    background-color: #525252; /* Cor azul clara para diferenciar */
+}
+
