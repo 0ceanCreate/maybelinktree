@@ -107,8 +107,9 @@ body {
     padding: 20px;
     background-color: #f0f0f0; /* Fundo cinza claro para o rodapé */
     color: #333; /* Cor do texto */
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif; /* Usando a fonte Montserrat */
