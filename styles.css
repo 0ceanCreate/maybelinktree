@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -37,6 +38,7 @@ body {
 
 .profile-name {
     font-size: 24px;
+    font-weight: 700;
     color: #333;
     margin-bottom: 20px;
 }
@@ -93,4 +95,25 @@ body {
 .link-button:nth-child(6):hover {
     background-color: #525252; /* Cor azul clara para diferenciar */
 }
+.link-button:nth-child(7) {
+    background-color: #6213d8; /* Cor azul clara para diferenciar */
+}
+.link-button:nth-child(7):hover {
+    background-color: #4a2580; /* Cor azul clara para diferenciar */
+}
 
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Fundo cinza claro para o rodapé */
+    color: #333; /* Cor do texto */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif; /* Usando a fonte Montserrat */
+}
+
+.footer p {
+    margin: 0;
+}
